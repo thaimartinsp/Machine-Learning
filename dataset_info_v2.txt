@@ -1,0 +1,42 @@
+============================================================
+RESUMO DO DATASET — Textile Fabric Quality Classification
+============================================================
+
+Fonte: Kaggle (devendrakushwah08/textile-fabric-quality-classification-dataset)
+Total de amostras (após limpeza): 25,000
+Total de features: 15
+Coluna alvo: fabric_quality
+Classes: ['High', 'Low', 'Medium']
+
+--- Distribuição das classes ---
+  High: 8,487 (33.9%)
+  Low: 8,274 (33.1%)
+  Medium: 8,239 (33.0%)
+
+--- Features utilizadas ---
+   1. thread_count
+   2. gsm
+   3. tensile_strength
+   4. shrinkage_percent
+   5. color_fastness
+   6. fabric_thickness
+   7. defect_count
+   8. elongation_percent
+   9. moisture_absorption
+  10. fabric_type
+  11. weave_type
+  12. finish_type
+  13. production_method
+  14. inspection_time_minutes
+  15. machine_temperature
+
+--- Estatísticas descritivas ---
+       thread_count       gsm  tensile_strength  shrinkage_percent  color_fastness  fabric_thickness  defect_count  elongation_percent  moisture_absorption  fabric_type  weave_type  finish_type  production_method  inspection_time_minutes  machine_temperature  fabric_quality
+count      25000.00  25000.00          25000.00           25000.00        25000.00          25000.00      25000.00            25000.00             25000.00     25000.00    25000.00     25000.00            25000.0                 25000.00             25000.00        25000.00
+mean         213.42    243.83             67.58               5.25            3.00              0.82          7.01               22.69                 8.95         1.90        1.05         1.00                0.5                    32.50                32.48            0.99
+std           75.90     87.24             29.52               2.67            1.41              0.39          4.34               10.12                 3.46         1.45        0.82         0.81                0.5                    15.90                 7.23            0.82
+min           80.00     90.00             15.00               0.50            1.00              0.15          0.00                5.00                 3.00         0.00        0.00         0.00                0.0                     5.00                20.00            0.00
+25%          149.00    170.00             42.81               2.98            2.00              0.49          3.00               13.93                 5.95         1.00        0.00         0.00                0.0                    18.70                26.16            0.00
+50%          213.00    243.00             67.77               5.27            3.00              0.83          7.00               22.87                 8.93         2.00        1.00         1.00                0.0                    32.50                32.44            1.00
+75%          277.00    318.00             92.47               7.50            4.00              1.16         11.00               31.50                11.94         3.00        2.00         2.00                1.0                    46.29                38.77            2.00
+max          349.00    399.00            120.00              10.00            5.00              1.50         14.00               40.00                15.00         4.00        2.00         2.00                1.0                    60.00                45.00            2.00
