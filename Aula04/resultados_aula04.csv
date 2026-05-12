@@ -1,0 +1,5 @@
+Algoritmo,N Anomalias,% Anomalias,Silhouette,Precision,Recall,F1
+OneClassSVM,403,4.03,0.3165,0.241,0.286,0.261
+LOF,400,4.0,0.2069,0.215,0.254,0.233
+DBSCAN,110,1.1,0.4372,0.355,0.115,0.174
+IsolationForest,400,4.0,0.3573,0.16,0.189,0.173
