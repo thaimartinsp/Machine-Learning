@@ -1,0 +1,57 @@
+[
+  {
+    "question": "What are the main parts of a loom?",
+    "answer": "103 The machinery used in yarn mills for making 200s is as follows: automatic feeder, opener, breaker picker, card, sliver-lap machine, ribbon-lap machine, comber, first dav « ring, sec-ond drawing, third drawing, fourth drawing, slubber, first interradiumate, second intermediate, roving frame, mule. Although the foregoing combinations may be considered as the standards for the class of work to which they refer, it occasionally happens that mills are found using different lay-outs. This may be because the mill is intended to make a low or higher grade of yarn than is customary for the numbers referred to, or because it is a mill that has been changed over from other numbers and, the old machinery has been retained; or there may be many other reasons. The objects of all cotton-yam-preparation machines are: (1) the separation of the matted mass of fiber into loose flakes and the removal of the heavier and more bulky impurities, which objects are principally attained in the opening and picking processes; (2) the further cleansing of the stock from light and minute particles",
+    "num_sources": 4,
+    "source_pages": [
+      134,
+      31,
+      199,
+      366
+    ]
+  },
+  {
+    "question": "How is yarn count calculated?",
+    "answer": "YARNCALCULATION STABLE—(Continued)Wt.inGr.",
+    "num_sources": 4,
+    "source_pages": [
+      45,
+      71,
+      43,
+      42
+    ]
+  },
+  {
+    "question": "What causes defects in woven fabric?",
+    "answer": "I cannot find this information in the manual.",
+    "num_sources": 4,
+    "source_pages": [
+      128,
+      228,
+      224,
+      152
+    ]
+  },
+  {
+    "question": "What is the purpose of the warp?",
+    "answer": "The bobbins j, as they come from the spinning frame are placed in the bobbin holderk, the end of yam being passed into a swinging arm similar to  3, and then carried T;o the thread guide I, from which it passes to the spool h. As the spool turns, they are spooled on it. The traverse of them a month the spool is obtained by imparting an up-and-down motion to the ailmon which the thread gtiides I are secured. This motion is given to the traverser U by means of the rods mi, motion being imparted to these rods by the rods ni2, which are connected to the arms n; these arms are acted on by aangle gear / and quadrant «i. The bobbin boxes, in which the bobbins are kept, are shown at ;g shows the cows on which the spools are placed as they become full. In cases where they are to be spooled is wound on cops or bobbins with a fill",
+    "num_sources": 4,
+    "source_pages": [
+      278,
+      268,
+      270,
+      266
+    ]
+  },
+  {
+    "question": "How to calculate the number of picks per inch?",
+    "answer": "Multiply the width in the weed, in inches, by the number of picks per inch. Multiply this result by the length of the cloth, in yards, and divide the result thus obtained by the number of yards to the hank. Example.",
+    "num_sources": 4,
+    "source_pages": [
+      101,
+      213,
+      33,
+      336
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+artifact_uri: file:c:/Users/50812123859/Documents/AulasML/Aula07/mlruns/541304877195383497/d09d634ba9e0477e86a84d8c2a380fb0/artifacts
+end_time: 1779929136682
+entry_point_name: ''
+experiment_id: '541304877195383497'
+lifecycle_stage: active
+run_id: d09d634ba9e0477e86a84d8c2a380fb0
+run_name: rag_flan_t5_base_v1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779929104708
+status: 3
+tags: []
+user_id: '50812123859'
