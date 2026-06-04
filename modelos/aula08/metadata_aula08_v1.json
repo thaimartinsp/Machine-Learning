@@ -1,0 +1,90 @@
+{
+  "version": "v1",
+  "aula": "08",
+  "task": "reinforcement_learning",
+  "environments": {
+    "Taxi-v3": {
+      "n_states": 500,
+      "n_actions": 6,
+      "source": "gymnasium.make('Taxi-v3')"
+    },
+    "Textil": {
+      "n_states": 27,
+      "n_actions": 3,
+      "source": "TextilOperatorEnv (custom)",
+      "description": "Operador atendendo 3 teares (status OK/AGUARDANDO/FALHA)"
+    }
+  },
+  "models": [
+    {
+      "file": "qtable_qlearning_taxi_v1.joblib",
+      "env": "Taxi-v4",
+      "algorithm": "Q-Learning",
+      "shape": [
+        500,
+        6
+      ]
+    },
+    {
+      "file": "qtable_sarsa_taxi_v1.joblib",
+      "env": "Taxi-v4",
+      "algorithm": "SARSA",
+      "shape": [
+        500,
+        6
+      ]
+    },
+    {
+      "file": "qtable_qlearning_textil_v1.joblib",
+      "env": "Textil",
+      "algorithm": "Q-Learning",
+      "shape": [
+        27,
+        3
+      ]
+    },
+    {
+      "file": "qtable_sarsa_textil_v1.joblib",
+      "env": "Textil",
+      "algorithm": "SARSA",
+      "shape": [
+        27,
+        3
+      ]
+    }
+  ],
+  "hyperparameters": {
+    "alpha": 0.1,
+    "gamma_taxi": 0.99,
+    "gamma_textil": 0.95,
+    "epsilon_start": 1.0,
+    "epsilon_min": 0.01,
+    "epsilon_decay": 0.999
+  },
+  "evaluation": {
+    "taxi_qlearning": {
+      "mean_reward": 7.24,
+      "std_reward": 2.349978723307937,
+      "mean_steps": 13.76,
+      "success_rate": 1.0
+    },
+    "taxi_sarsa": {
+      "mean_reward": 7.24,
+      "std_reward": 2.349978723307937,
+      "mean_steps": 13.76,
+      "success_rate": 1.0
+    },
+    "textil_qlearning": {
+      "mean_reward": 265.925,
+      "std_reward": 3.816985066777181,
+      "mean_steps": 50.0,
+      "success_rate": 0.0
+    },
+    "textil_sarsa": {
+      "mean_reward": 265.87,
+      "std_reward": 3.7313670417154086,
+      "mean_steps": 50.0,
+      "success_rate": 0.0
+    }
+  }
+}
